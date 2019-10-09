@@ -1,5 +1,3 @@
-docker -H duckiemon.local run -it --privileged --rm --net=host duckietown/exercise21a:v1
-
 # Instructions to reproduce results
 
 ### 1. Clone this repository and go to its directory
