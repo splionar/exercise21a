@@ -12,6 +12,6 @@ dts devel build -f --arch arm32v7 -H MY_ROBOT.local
 
 ### 3. Run docker image in Duckiebot with the following options
 ```bash
-docker -H MY_ROBOT.local run -it --privileged --rm --net=host duckietown/exercise21a:v1
+docker -H MY_ROBOT.local run -it --privileged --rm --net=host duckietown/exercise21a:v1-arm32v7
 ```
 Image stream is published.
